@@ -1,3 +1,11 @@
 *{
     margin: 0;
 }
+
+
+.awardImages ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-contents:space-between;    
+}
