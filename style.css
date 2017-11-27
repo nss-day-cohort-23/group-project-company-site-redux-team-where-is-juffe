@@ -63,25 +63,44 @@ ID Selectors
 
 @media (min-width: 600px){
 
+    .nav-menu-title {
+        flex-grow: 1;
+    }
+
     .nav-menu h1 {
         border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        color: #081c35;
     }
 
     .nav-menu {
         display: flex;
         justify-content: space-between;
-        margin: 0 1em;
+        margin: 1em 2em;
+        margin-right: 3em;
     }
 
     .nav-menu ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between;;
+        padding-bottom: 0;
+        flex-grow: 3;
     }
 
     .nav-menu li {
         display: inline;
-        margin-right: 1em;
+        margin-right: 0 ;
         margin-bottom: 0;
+        font-size: 1.3em;
+    }
+
+    .banner {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        margin-bottom: 1em;
+        background-position-y: -50px;
     }
 
 }
