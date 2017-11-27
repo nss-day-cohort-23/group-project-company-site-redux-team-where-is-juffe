@@ -3,62 +3,44 @@ let products = [
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
+        url: "img/bullying.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "bullying.jpg"
-    }, 
-    {
-        name: "Product Name",
-        description: "Product Description",
-        price: 25.32,
-        url: "bullying.jpg"
-    }, 
-    {
-        name: "Product Name",
-        description: "Product Description",
-        price: 25.32,
-        url: "bullying.jpg"
-    }, 
-    {
-        name: "Product Name",
-        description: "Product Description",
-        price: 25.32,
-        url: "bullying.jpg"
-    }, 
+        url: "img/bullying.jpg"
+    }
 ];
 
 function outputProducts(){
