@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+
+/**Awards flex**/
+
+.awardImages ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-contents:space-between;
+}
+
 /***************
 Element Selectors
 ***************/
@@ -126,4 +136,4 @@ Media Queries
 
 
 
-}
+
