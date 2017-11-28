@@ -30,7 +30,7 @@ Awards flex
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-contents:space-between;
+    justify-content: space-between;
 }
 
 /***************
@@ -41,18 +41,31 @@ body {
     background-color: #f4f4f434;
 }
 
+blockquote {
+   border-left: 3px #6ab6e7 solid;
+   margin: 2em;
+   margin-left: 5em;
+   padding-left: 1em;
+   background-color: rgb(240, 240, 240);
+   width: 60%;
+}
+
+blockquote .italic {
+    font-style: italic;
+}
+
 /***************
 Class Selectors
 ***************/
 
 .nav-menu {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ffffffcc;
 }
 
 .nav-menu h1 {
     border-bottom: 1px solid black;
-    color:#081c35;
+    color:#10427f;
     margin-bottom: .25em;
 }
 
@@ -87,6 +100,7 @@ Class Selectors
 .wrapper {
     margin: 0 1em;
 }
+
 
 
 /* About Page Mobile */
@@ -202,7 +216,7 @@ Media Queries
     .nav-space {
         content: "";
         display: table;
-        height: 70px;
+        height: 65px;
     }
     .banner {
         width: 100%;
@@ -244,7 +258,14 @@ Media Queries
         display: block;
     }
 
+}
 
+@media (min-width: 1100px){
+    .banner {
+        background-position-y: -160px;
+        height: 300px;
+    }
+}
 
 /***************************
 ED --- ABOUT PAGE STYLING
@@ -302,6 +323,4 @@ footer p a {
 }
 footer p a:hover {
     color: white;
-}
-
 }
