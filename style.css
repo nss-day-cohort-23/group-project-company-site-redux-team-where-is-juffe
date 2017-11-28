@@ -48,7 +48,7 @@ body {
 }
 
 blockquote {
-   border-left: 3px #6ab6e7 solid;
+   border-left: 3px #de4404 solid;
    margin: 2em;
    margin-left: 5em;
    padding-left: 1em;   
@@ -172,6 +172,7 @@ footer p a:hover {
     width: 150px;
 }
 .product-card h1,
+.product-card h2,
 .product-card p {
     text-align: center;
 }
@@ -183,7 +184,7 @@ footer p a:hover {
 .product-card {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed #de4404;
 }
 
 /***************
@@ -209,7 +210,7 @@ Media Queries
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0;
-        color: #081c35;
+        color:#10427f;
     }
 
     .nav-menu {
@@ -281,8 +282,10 @@ Media Queries
         width: 30%;
         margin-bottom: 1em;
         padding-bottom: 1em;
-        border-bottom: 1px dotted black;
+        border-bottom: 1px dashed #de4404;
     }
+
+
 
 
 
