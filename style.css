@@ -294,6 +294,104 @@ Media Queries
     }
 }
 
+
+/**************************************** Careers Page *************************************/
+
+.careers .des {
+    display: flex;
+    margin-left: 11em;
+    margin-right: 11em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #de4404;
+}
+
+.careers .dir {
+    display: flex;
+    margin-left: 11em;
+    margin-right: 11em;
+    padding-bottom: 1em;
+    background-color: #de4404;
+}
+
+.careers .coun {
+    display: flex;
+    margin-left: 11em;
+    margin-right: 11em;
+    padding-bottom: 1em;
+    background-color: #de4404;
+}
+
+.careers h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: .4em;
+}
+
+.careers h2{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: .8em;
+}
+
+.top {
+    margin: 0 11em;
+    background-color: #f1ece5;
+}
+
+.careers img {
+    width: 50%;
+    height: 20em;
+}
+
+div.text {
+    background-color: #f1ece5;
+}
+
+.careers h3 {
+    padding: .3em 0;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.careers p {
+    font-size: 1.3em;
+    padding: 0 1em;
+}
+
+.button {
+
+    text-transform: uppercase;
+    background-color: #122c4e;
+    color: white;
+    padding: .5em 1em;
+    font-size: larger;
+    letter-spacing: .1em;
+    box-shadow: 0.1em 0.1em 5px #b7b2b2;
+    border: 0;
+    margin-left: 7.2em;
+}
+
+.des .button {
+    margin-top: 1em;
+}
+
+.dir .button {
+    margin-top: .3em;
+}
+
+.coun .button {
+    margin-top: 1.4em;
+}
+
+input[type=reset]:hover {
+    cursor: pointer;
+    color: #de4404;
+}
+
 /***************************
 ED --- ABOUT PAGE STYLING
 ****************************/
