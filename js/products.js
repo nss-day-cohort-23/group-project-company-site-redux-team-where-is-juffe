@@ -3,43 +3,43 @@ let products = [
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/download-1.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/download-2.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/download-3.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/images-2.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/images-3.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/images-4.jpg"
     }, 
     {
         name: "Product Name",
         description: "Product Description",
         price: 25.32,
-        url: "img/bullying.jpg"
+        url: "imgs/product.imgs/images-5.jpg"
     }
 ];
 
