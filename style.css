@@ -8,10 +8,10 @@ global styling
    
 }
 
-.pageBG {
+/* .pageBG {
     background: linear-gradient( #f4f4f4, #d8efff) ;
 
-}
+} */
 
 h1 {
     font-size: 3em;
@@ -43,11 +43,12 @@ Element Selectors
 ***************/
 
 body {
-    background: linear-gradient( #f4f4f4, #d8efff)
+    background-color: #cac2c2;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #fff 100%);
 }
 
 blockquote {
-   border-left: 3px #6ab6e7 solid;
+   border-left: 3px #de4404 solid;
    margin: 2em;
    margin-left: 5em;
    padding-left: 1em;   
@@ -170,6 +171,7 @@ footer p a:hover {
     width: 150px;
 }
 .product-card h1,
+.product-card h2,
 .product-card p {
     text-align: center;
 }
@@ -181,7 +183,7 @@ footer p a:hover {
 .product-card {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed #de4404;
 }
 
 /***************
@@ -207,7 +209,7 @@ Media Queries
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0;
-        color: #081c35;
+        color:#10427f;
     }
 
     .nav-menu {
@@ -279,9 +281,8 @@ Media Queries
         width: 30%;
         margin-bottom: 1em;
         padding-bottom: 1em;
-        border-bottom: 1px dotted black;
+        border-bottom: 1px dashed #de4404;
     }
-
 
 
     /***************************
@@ -354,6 +355,7 @@ Media Queries
     footer p a:hover {
         color: white;
     }
+
 }
 
 @media (min-width: 1100px){
@@ -429,6 +431,7 @@ div.text {
 .careers p {
     font-size: 1.3em;
     padding: 0 1em;
+    text-align: justify;
 }
 
 .button {
@@ -441,7 +444,7 @@ div.text {
     letter-spacing: .1em;
     box-shadow: 0.1em 0.1em 5px #b7b2b2;
     border: 0;
-    margin-left: 7.2em;
+    margin-left: 8.75em;
 }
 
 .des .button {

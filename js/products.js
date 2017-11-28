@@ -1,6 +1,5 @@
 let products = [
     {
-
         name: "So you made it",
         description: "This one of those everyday trophies. You earned it, probably",
         price: 125.32,
@@ -53,8 +52,8 @@ function outputProducts(){
 
         productCardHTML += "<div class='product-card'>"
         productCardHTML += `<img alt="${products[i].name}" src="${products[i].url}"></img>`;
-        productCardHTML += `<h1>${products[i].name}</h1>`;
-        productCardHTML += `<p>${products[i].price}</p>`;
+        productCardHTML += `<h2>${products[i].name}</h2>`;
+        productCardHTML += `<p>$${products[i].price}</p>`;
         productCardHTML += `<p>${products[i].description}</p>`;
         productCardHTML += "</div>";
 
