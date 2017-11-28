@@ -57,6 +57,52 @@ Class Selectors
     margin: 0 1em;
 }
 
+/* About Page Mobile */
+.about-flex-wrap {
+    border-top: 10px solid #de4404;
+}
+h1.about-heading {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.about-flex-two h3 {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1.2em auto;
+}
+.about-flex-two p {
+    font-size: 1.3em;
+    text-align: justify;
+    padding: .3em;
+}
+.about-flex-one img {
+    display: block;
+    margin: auto;
+    border-radius: .3em;
+    box-shadow: 2px 3px #c3bfc4;
+}
+
+/***************************
+FOOTER MOBILE
+****************************/
+footer {
+    background-color: #c3bfc4;
+}
+footer p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: .15em;  
+}
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+footer p a:hover {
+    color: white;
+}
+
+
 /***************
 ID Selectors
 ***************/
@@ -125,5 +171,63 @@ Media Queries
     }
 
 
+
+/***************************
+ED --- ABOUT PAGE STYLING
+****************************/
+article {
+    margin-bottom: 1.5em;
+}
+.about-flex-wrap {
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid #de4404;
+}
+h1.about-heading {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.about-flex-one {
+    flex: 1 1 auto;
+}
+.about-flex-two {
+    width: 2 1 auto;
+}
+.about-flex-one img {
+    border-radius: .3em;
+    box-shadow: 2px 3px #c3bfc4;
+    margin-right: .2em;
+}
+.about-flex-two h3 {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 1.5em auto;
+}
+
+.about-flex-two p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: .5em;
+}
+
+/***************************
+FOOTER
+****************************/
+footer {
+    background-color: #c3bfc4;
+}
+footer p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: .25em;  
+}
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+footer p a:hover {
+    color: white;
+}
 
 }
