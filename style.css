@@ -8,10 +8,10 @@ global styling
    
 }
 
-.pageBG {
+/* .pageBG {
     background: linear-gradient( #f4f4f4, #d8efff) ;
 
-}
+} */
 
 h1 {
     font-size: 3em;
@@ -43,7 +43,8 @@ Element Selectors
 ***************/
 
 body {
-    background: linear-gradient( #f4f4f4, #d8efff)
+    background-color: #cac2c2;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #fff 100%);
 }
 
 blockquote {
@@ -363,6 +364,7 @@ div.text {
 .careers p {
     font-size: 1.3em;
     padding: 0 1em;
+    text-align: justify;
 }
 
 .button {
@@ -375,7 +377,7 @@ div.text {
     letter-spacing: .1em;
     box-shadow: 0.1em 0.1em 5px #b7b2b2;
     border: 0;
-    margin-left: 7.2em;
+    margin-left: 8.75em;
 }
 
 .des .button {
