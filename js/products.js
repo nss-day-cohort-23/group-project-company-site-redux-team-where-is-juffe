@@ -1,6 +1,6 @@
 let products = [
     {
- productImages
+
         name: "So you made it",
         description: "This one of those everyday trophies. You earned it, probably",
         price: 125.32,
@@ -41,6 +41,7 @@ let products = [
         description: "Welcome to the Hotel California. Take it easy you earned this nightmare through your apathy. ",
         price: 245.32,
         url: "imgs/product.imgs/images-5.jpg"
+    }
 
 ];
 
