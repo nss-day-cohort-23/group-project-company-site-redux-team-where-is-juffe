@@ -39,7 +39,7 @@ Element Selectors
 ***************/
 
 body {
-    background-color: #f4f4f434;
+    background: linear-gradient( #f4f4f4, #d8efff)
 }
 
 blockquote {
