@@ -177,3 +177,11 @@ Media Queries
     }
 
 
+}
+
+@media (min-width: 1100px){
+    .banner {
+        background-position-y: -160px;
+        height: 300px;
+    }
+}
