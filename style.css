@@ -15,8 +15,12 @@ global styling
 
 h1 {
     font-size: 3em;
-    color: #081c35;
-    
+    color: #081c35;   
+}
+
+body h1 {
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 
@@ -39,14 +43,14 @@ Element Selectors
 ***************/
 
 body {
-    background-color: #f4f4f434;
+    background: linear-gradient( #f4f4f4, #d8efff)
 }
 
 blockquote {
    border-left: 3px #6ab6e7 solid;
    margin: 2em;
    margin-left: 5em;
-   padding-left: 1em;
+   padding-left: 1em;   
    width: 60%;
 }
 
@@ -166,7 +170,20 @@ footer p a:hover {
 .product-card img{
     width: 150px;
 }
+.product-card h1,
+.product-card p {
+    text-align: center;
+}
 
+.product-card img {
+    margin: 0 auto;
+    display: block;
+}
+.product-card {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px dotted black;
+}
 
 /***************
 ID Selectors
@@ -179,6 +196,10 @@ Media Queries
 
 @media (min-width: 600px){
 
+    .wrapper {
+        margin: 0 5em;
+    }
+    
     .nav-menu-title {
         flex-grow: 1;
     }
@@ -262,15 +283,7 @@ Media Queries
         border-bottom: 1px dotted black;
     }
 
-    .product-card h1,
-    .product-card p {
-        text-align: center;
-    }
 
-    .product-card img {
-        margin: 0 auto;
-        display: block;
-    }
 
 }
 
