@@ -171,6 +171,7 @@ footer p a:hover {
     width: 150px;
 }
 .product-card h1,
+.product-card h2,
 .product-card p {
     text-align: center;
 }
