@@ -15,8 +15,11 @@ global styling
 
 h1 {
     font-size: 3em;
-    color: #081c35;
-    
+    color: #081c35;   
+}
+
+body h1 {
+    text-align: center;
 }
 
 
