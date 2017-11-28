@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+
+/**Awards flex**/
+
+.awardImages ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-contents:space-between;
+}
+
 /***************
 Element Selectors
 ***************/
@@ -57,6 +67,7 @@ Class Selectors
     margin: 0 1em;
 }
 
+
 /* About Page Mobile */
 .about-flex-wrap {
     border-top: 10px solid #de4404;
@@ -100,6 +111,16 @@ footer p a {
 }
 footer p a:hover {
     color: white;
+}
+    
+
+
+/*********
+    Products Page
+*********/
+
+.product-card img{
+    width: 150px;
 }
 
 
@@ -168,6 +189,38 @@ Media Queries
         background-size: cover;
         margin-bottom: 1em;
         background-position-y: -50px;
+    }
+
+
+    main h1 {
+        text-align: center;
+        margin: 1em;    
+    }
+    /*********
+    Products Page
+    *********/
+    .products-output {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .product-card {
+        width: 30%;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px dotted black;
+    }
+
+    .product-card h1,
+    .product-card p {
+        text-align: center;
+    }
+
+    .product-card img {
+        margin: 0 auto;
+        display: block;
     }
 
 
