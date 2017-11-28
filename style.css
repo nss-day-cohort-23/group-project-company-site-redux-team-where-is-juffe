@@ -183,7 +183,7 @@ footer p a:hover {
 .product-card {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed #de4404;
 }
 
 /***************
@@ -209,7 +209,7 @@ Media Queries
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0;
-        color: #081c35;
+        color:#10427f;
     }
 
     .nav-menu {
@@ -281,8 +281,10 @@ Media Queries
         width: 30%;
         margin-bottom: 1em;
         padding-bottom: 1em;
-        border-bottom: 1px dotted black;
+        border-bottom: 1px dashed #de4404;
     }
+
+
 
 
 
