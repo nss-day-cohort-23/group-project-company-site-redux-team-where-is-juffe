@@ -1,9 +1,30 @@
-*{
+/***************
+global styling
+***************/
+
+* {
     margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+
+.pageBG {
+    background: linear-gradient( #f4f4f4, #d8efff) ;
+
+}
+
+h1 {
+    font-size: 3em;
+    color: #081c35;
+    
 }
 
 
-/**Awards flex**/
+
+/***************
+Awards flex
+***************/
+
 
 .awardImages ul {
     list-style-type: none;
@@ -17,7 +38,7 @@ Element Selectors
 ***************/
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f434;
 }
 
 /***************
