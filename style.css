@@ -39,12 +39,12 @@ Class Selectors
 
 .nav-menu {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ffffffcc;
 }
 
 .nav-menu h1 {
     border-bottom: 1px solid black;
-    color:#6ab6e7db;
+    color:#10427f;
     margin-bottom: .25em;
 }
 
@@ -149,7 +149,7 @@ Media Queries
     .nav-space {
         content: "";
         display: table;
-        height: 70px;
+        height: 65px;
     }
     .banner {
         width: 100%;
