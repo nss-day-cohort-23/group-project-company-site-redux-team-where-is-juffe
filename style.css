@@ -21,6 +21,7 @@ h1 {
 
 
 
+
 /***************
 Awards flex
 ***************/
@@ -52,6 +53,15 @@ blockquote {
 
 blockquote .italic {
     font-style: italic;
+}
+
+
+footer p {
+    font-size: 1em !important;
+}
+
+footer {
+    background-color: #ffffff;
 }
 
 /***************
@@ -133,7 +143,7 @@ h1.about-heading {
 FOOTER MOBILE
 ****************************/
 footer {
-    background-color: #c3bfc4;
+    background-color: #ffffff;
 }
 footer p {
     font-size: 1.2em;
@@ -231,6 +241,11 @@ Media Queries
         text-align: center;
         margin: 1em;    
     }
+
+    footer p a {
+        right: 10px;
+        position: absolute;
+    }
     /*********
     Products Page
     *********/
@@ -310,7 +325,8 @@ h1.about-heading {
 FOOTER
 ****************************/
 footer {
-    background-color: #c3bfc4;
+    background-color: #ffffff;
+}
 }
 footer p {
     font-size: 1.3em;
