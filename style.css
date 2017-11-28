@@ -20,6 +20,7 @@ h1 {
 
 body h1 {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 
@@ -169,7 +170,20 @@ footer p a:hover {
 .product-card img{
     width: 150px;
 }
+.product-card h1,
+.product-card p {
+    text-align: center;
+}
 
+.product-card img {
+    margin: 0 auto;
+    display: block;
+}
+.product-card {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px dotted black;
+}
 
 /***************
 ID Selectors
@@ -269,15 +283,7 @@ Media Queries
         border-bottom: 1px dotted black;
     }
 
-    .product-card h1,
-    .product-card p {
-        text-align: center;
-    }
 
-    .product-card img {
-        margin: 0 auto;
-        display: block;
-    }
 
 }
 
