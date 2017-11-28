@@ -53,7 +53,7 @@ function outputProducts(){
         productCardHTML += "<div class='product-card'>"
         productCardHTML += `<img alt="${products[i].name}" src="${products[i].url}"></img>`;
         productCardHTML += `<h2>${products[i].name}</h2>`;
-        productCardHTML += `<p>${products[i].price}</p>`;
+        productCardHTML += `<p>$${products[i].price}</p>`;
         productCardHTML += `<p>${products[i].description}</p>`;
         productCardHTML += "</div>";
 
